@@ -1,8 +1,6 @@
 /*
  * Jeach Components Framework 
  *
- * Created on Wednesday, January 24, 2018 at 23:30
- *
  * Copyright (C) 2018 by Christian Jean.
  * All rights reserved.
  *
