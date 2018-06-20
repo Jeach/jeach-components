@@ -1,0 +1,19 @@
+{
+  "name": "jeach-components-server",
+  "version": "0.1.0",
+  "description": "Jeach Components Server Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jeach/workspace/jeach-components"
+  },
+  "keywords": [
+    "jeach",
+    "jeach-components"
+  ],
+  "author": "Christian Jean",
+  "license": "MIT"
+}
