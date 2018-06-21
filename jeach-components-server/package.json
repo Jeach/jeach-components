@@ -1,19 +1,25 @@
 {
   "name": "jeach-components-server",
   "version": "0.1.0",
-  "description": "Jeach Components Server Framework",
-  "main": "index.js",
+  "description": "Jeach Components Framework for Node.js",
+  "main": "jeach-components-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jeach/workspace/jeach-components"
+    "url": "git+https://github.com/Jeach/jeach-components.git"
   },
   "keywords": [
     "jeach",
-    "jeach-components"
+    "jeach-components",
+    "jeach-components-client",
+    "jeach-components-server"
   ],
   "author": "Christian Jean",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeach/jeach-components/issues"
+  },
+  "homepage": "https://github.com/Jeach/jeach-components#readme"
 }
