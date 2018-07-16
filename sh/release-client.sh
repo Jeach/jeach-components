@@ -8,17 +8,19 @@
 #
 
 BASE="jeach-components"
-REL="releases"
+REPO="releases"
 
-. $BASE-client/package.sh
+. client/package.sh
 
-echo "Releasing: $BASE-client-$VERSION.js"
+echo
+echo "Releasing '$BASE-client' version $VERSION"
+echo
 
-cp $BASE-client/$BASE-client.js $REL/$BASE-client-$VERSION.js
+echo " >> Packaged: $BASE-client-$VERSION.min.js"
+cp client/$BASE-client.js $REPO/$BASE-client-$VERSION.js
 
 [ ! -x "bin/jsmin" ] && sh/jsmin.sh
 [ ! -x "bin/jsmin" ] && echo "Could not find 'JSMin' executable, aborting!" && exit 1
 
-echo "Releasing: $BASE-client-$VERSION.min.js"
-bin/jsmin < $BASE-client/$BASE-client.js > $REL/$BASE-client-$VERSION.min.js
-
+echo " >> Packaged: $BASE-client-$VERSION.min.js"
+bin/jsmin < client/$BASE-client.js > $REPO/$BASE-client-$VERSION.min.js
